@@ -81,8 +81,8 @@ public class pin_change extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-         String pin1= Arrays.toString(text1.getPassword());
-         String pin2= Arrays.toString(text2.getPassword());
+         String pin1= text1.getText();
+         String pin2= text2.getText();
          try
          {
 
